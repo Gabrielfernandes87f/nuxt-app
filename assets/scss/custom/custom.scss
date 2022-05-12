@@ -1,0 +1,37 @@
+@import '../variables';
+
+body {
+    color: $primary_2  !important;
+}
+
+.nav-ul {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    justify-content: center;
+    background-color: rgba(34, 2, 47, 0.763);
+    font-size: $font_size_1;
+}
+
+.ul-li {
+    padding: 10px;
+}
+
+#main {
+    background: url("~@/assets/img/banner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    display: flex;
+    font-size: 3rem;
+    color: #3e0762;
+
+}
